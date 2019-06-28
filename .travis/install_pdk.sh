@@ -26,7 +26,7 @@ main() {
     sudo apt-get install -y pdk
 
     mkdir -p ~/.config/puppet
-    echo -e "---\ndisabled: true\n" > ~/.config/puppet/analytics.yml
+    echo "---\ndisabled: true" > ~/.config/puppet/analytics.yml
 
     /usr/local/bin/pdk --version
 
