@@ -8,9 +8,9 @@ before_install:
 - ".travis/install_pdk.sh"
 script:
 - ".travis/test_script.sh"
-branches:
-  only:
-  - master
+#branches:
+#  only:
+#  - master
 notifications:
   email: false
   slack:
