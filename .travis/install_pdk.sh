@@ -29,6 +29,8 @@ main() {
     echo -e "---\ndisabled: true\n" > ~/.config/puppet/analytics.yml
 
     /usr/local/bin/pdk --version
+
+    cat ~/.config/puppet/analytics.yml
 }
 
 main "$@"
